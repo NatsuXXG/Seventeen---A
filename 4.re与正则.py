@@ -2,6 +2,7 @@
 import re
 
 content = 'Xiaoshuaib has 100 bananas'   
+
 res = re.match('^Xi.*(\d+)\s.*s$',content)              # match(配对)
 res = re.match('^Xi.*?(\d+)\s.*s$',content)             #  '?'贪婪匹配 (贪婪匹配就是一个一个去匹配)
 res = re.match('^Xi.*?(\d+)\s.*s$',content,re.S)        # re.S匹配有换行的

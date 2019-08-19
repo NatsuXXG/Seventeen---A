@@ -19,8 +19,11 @@ pip3 install pyquery
 # 1. OCR
 # OCR，即 Optical Character Recognition，光学字符识别，是指通过扫描字符，然后通过其形状将其翻译成电子文本的过程。对于图形验证码来说，它们都是一些不规则的字符，这些字符确实是由字符稍加扭曲变换得到的内容。
 # tesserocr 是 Python 的一个 OCR 识别库，但其实是对 tesseract 做的一层 Python API 封装，所以它的核心是 tesseract。因此，在安装 tesserocr 之前，我们需要先安装 tesseract。
+先安装tesseract
+tesseract 下载地址：http://digi.bib.uni-mannheim.de/tesseract
 
-
+再安装tesserocr
+pip3 install tesserocr pillow
 
 
 
